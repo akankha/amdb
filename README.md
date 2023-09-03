@@ -1,6 +1,6 @@
 # IMDb Clone with TMDb API
 
-![Project Preview]([https://img001.prntscr.com/file/img001/nK_ljN44RsKPuA_6RcrQcw.png](https://img001.prntscr.com/file/img001/Pw1sssnoRT-wixctE0b2hw.png))
+![Project Preview](https://img001.prntscr.com/file/img001/Pw1sssnoRT-wixctE0b2hw.png)
 
 Welcome to the IMDb Clone project! This is a web application that allows users to browse and explore movies and TV shows using the TMDb (The Movie Database) API. The project is built using Next.js for server-side rendering, and Tailwind CSS for styling, resulting in a sleek and responsive user interface.
 
