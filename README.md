@@ -40,10 +40,6 @@ Contributions to the project are welcome! If you'd like to add new features, fix
 
 - The project UI is built using Tailwind CSS, which simplifies styling and ensures a responsive design.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ---
 
 Feel free to explore the IMDb Clone and start discovering your favorite movies and TV shows in a whole new way. If you have any questions or suggestions, don't hesitate to reach out!
