@@ -1,18 +1,10 @@
-"use client"
-import React from 'react'
-import Menuitem from './Menuitem'
-import {BiSolidHomeSmile,BiSolidCameraMovie,BiSolidMovie} from "react-icons/bi"
-import Link from 'next/link'
-import DarkMode from './DarkMode'
-import Provider from '@/app/Providers'
-
-
-
+"use client";
+import Link from "next/link";
+import { BiSolidHomeSmile, BiSolidMovie } from "react-icons/bi";
+import DarkMode from "./DarkMode";
+import Menuitem from "./Menuitem";
 
 const Header = () => {
-
-
-
   return (
     <>
       <div className="dark:bg-white bg-gray-800">
@@ -32,11 +24,7 @@ const Header = () => {
 
           <div className="flex">
             <Menuitem title={"Home"} address={"/"} Icon={BiSolidHomeSmile} />
-            <Menuitem
-              title={"Movies"}
-              address={"/Movies"}
-              Icon={BiSolidCameraMovie}
-            />
+
             <Menuitem
               title={"Tv-Shows"}
               address={"/TvShows"}
@@ -48,6 +36,6 @@ const Header = () => {
       </div>
     </>
   );
-}
+};
 
-export default Header
+export default Header;

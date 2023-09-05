@@ -1,8 +1,7 @@
-"use client"
-import Link from 'next/link'
-import React from 'react'
+"use client";
+import Link from "next/link";
 
-const Menuitem = ({title, address, Icon }) => {
+const Menuitem = ({ title, address, Icon }) => {
   return (
     <>
       <Link
@@ -11,15 +10,12 @@ const Menuitem = ({title, address, Icon }) => {
       >
         <Icon className="text-lg text-amber-400 " />
 
-        <span
-          className= "dark:text-black  text-white my-2 ps-2 text-sm"
-          
-        >
+        <span className="dark:text-black  text-white my-2 ps-2 text-sm">
           {title}
         </span>
       </Link>
     </>
   );
-}
+};
 
-export default Menuitem
+export default Menuitem;

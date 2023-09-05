@@ -1,15 +1,14 @@
-"use client"
-import React, { useState,useEffect } from 'react'
-import {BsFillMoonStarsFill,BsSunFill} from "react-icons/Bs"
-import { useTheme } from 'next-themes'
+"use client";
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
+import { BsFillMoonStarsFill, BsSunFill } from "react-icons/Bs";
 const DarkMode = () => {
-    
-    const {systemTheme,theme,setTheme} = useTheme();
-    const [mount,setMount] = useState(false);
-    const currentTheme = theme === 'system' ? systemTheme : theme;
-    useEffect(()=>setMount(true),[])
+  const { systemTheme, theme, setTheme } = useTheme();
+  const [mount, setMount] = useState(false);
+  const currentTheme = theme === "system" ? systemTheme : theme;
+  useEffect(() => setMount(true), []);
   return (
-    <> 
+    <>
       {mount && currentTheme === "dark" ? (
         <BsFillMoonStarsFill
           onClick={() => setTheme("light")}
@@ -23,6 +22,6 @@ const DarkMode = () => {
       )}
     </>
   );
-}
+};
 
-export default DarkMode
+export default DarkMode;
