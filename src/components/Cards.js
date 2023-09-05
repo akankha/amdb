@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import Date from "./Date";
 
 const Cards = ({ result }) => {
@@ -11,7 +10,7 @@ const Cards = ({ result }) => {
           <div className="relative">
             <Image
               src={`https://image.tmdb.org/t/p/w440_and_h660_face/${
-                result.backdrop_path || result.poster_path
+                result.poster_path || result.backdrop_path
               }`}
               width={440}
               height={660}
