@@ -44,4 +44,4 @@ Contributions to the project are welcome! If you'd like to add new features, fix
 
 Feel free to explore the IMDb Clone and start discovering your favorite movies and TV shows in a whole new way. If you have any questions or suggestions, don't hesitate to reach out!
 
-[Live Demo](https://your-live-demo-url.com) | [Report Issue](https://github.com/akankha/amdb/issues)
+[Live Demo](https://amdb-nine.vercel.app/) | [Report Issue](https://github.com/akankha/amdb/issues)
