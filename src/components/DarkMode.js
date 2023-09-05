@@ -1,7 +1,7 @@
 "use client";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
-import { BsFillMoonStarsFill, BsSunFill } from "react-icons/Bs";
+import { BsFillMoonStarsFill, BsSunFill } from "react-icons/bs";
 const DarkMode = () => {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mount, setMount] = useState(false);
