@@ -1,4 +1,4 @@
-# IMDb Clone with TMDb API
+# IMDb Clone with TMDb API  ||| [Live Demo](https://amdb-nine.vercel.app/)
 
 ![Project Preview](https://img001.prntscr.com/file/img001/A7VXXjW3TAetxUvDL4azFQ.png)
 
@@ -44,4 +44,4 @@ Contributions to the project are welcome! If you'd like to add new features, fix
 
 Feel free to explore the IMDb Clone and start discovering your favorite movies and TV shows in a whole new way. If you have any questions or suggestions, don't hesitate to reach out!
 
-[Live Demo](https://amdb-nine.vercel.app/) | [Report Issue](https://github.com/akankha/amdb/issues)
+ | [Report Issue](https://github.com/akankha/amdb/issues)
