@@ -33,10 +33,10 @@ const MoviePage = async ({ params }) => {
   };
 
   return (
-    <div className="relative h-screen">
+    <div className="relative sm:h-screen">
       <div style={gradientStyle} className="absolute inset-0"></div>
-      <div className="relative z-10 flex p-10 h-full">
-        <div className="w-1/3">
+      <div className="relative z-10 sm:flex p-10 sm:h-full">
+        <div className="sm:w-1/3">
           {/* The poster image */}
           <Image
             src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`}
@@ -46,7 +46,7 @@ const MoviePage = async ({ params }) => {
             className="rounded px-4"
           />
         </div>
-        <div className="w-2/3 p-8 text-white">
+        <div className="sm:w-2/3 p-8 text-white">
           <h2 className="text-3xl font-semibold mb-4">
             {movie.title} ({releaseDate ? format(releaseDate, "yyyy") : "N/A"})
           </h2>
