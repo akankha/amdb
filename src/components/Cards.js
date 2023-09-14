@@ -1,12 +1,16 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import Date from "./Date";
+import { usePathname } from "next/navigation";
 
 const Cards = ({ result }) => {
+  const pathname = usePathname();
+  console.log(pathname);
   return (
     <>
-      <div className="cursor-pointer sm:m-2 hover:scale-105 hover:background-gray-900 hover:shadow-slate-300 transition-all">
-        <Link href={`/Movie/${result.id}`}>
+      <div className="cursor-pointer sm:m-2 m-1 hover:scale-105 hover:background-gray-900 hover:shadow-slate-300 transition-all">
+        <Link href={pathname === "TvShows" ? `` : `/Movie/${result.id}`}>
           <div className="relative">
             <Image
               src={`https://image.tmdb.org/t/p/w440_and_h660_face/${
@@ -32,8 +36,10 @@ const Cards = ({ result }) => {
             </div>
           </div>
           <div className="p-2 mt-2">
-            <h2 className="text-md font-bold">{result.title || result.name}</h2>
-            <p className="flex items-center text-gray-500 text-sm">
+            <h2 className="text-md text-sm font-bold">
+              {result.title || result.name}
+            </h2>
+            <p className="flex items-center text-gray-500 sm:text-sm text-xs ">
               <Date dateString={result.first_air_date || result.release_date} />
             </p>
           </div>
